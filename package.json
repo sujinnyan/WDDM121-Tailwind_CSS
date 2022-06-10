@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-workshop",
+  "version": "1.0.0",
+  "description": "Workshop with TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+  "build": "npx tailwindcss -i ./input.css -o ./css/tailwind.css",
+  "dev": "npx tailwindcss -i ./input.css -o ./css/tailwind.css --watch"
+  },
+  "author": "Sujin An",
+  "license": "MIT",
+  "devDependencies": {
+  "tailwindcss": "^3.0.24"
+  }
+}
